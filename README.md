@@ -25,8 +25,8 @@ This project analyzes retail sales data to understand regional performance, cate
 - Interactive filters (Region, Category, Date)
 
 ## 🖼 Dashboard Preview
-![Dashboard Overview](screenshots/dashboard_overview.png)
-![Discount vs Profit](screenshots/discount_vs_profit.png)
+![Dashboard Overview](screenshots/Dashboard.png)
+![Discount vs Profit](screenshots/Discount vs Product.png)
 
 ## 🔍 Key Insights
 - West region contributes the highest sales
