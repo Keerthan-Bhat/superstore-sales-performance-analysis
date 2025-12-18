@@ -26,7 +26,7 @@ This project analyzes retail sales data to understand regional performance, cate
 
 ## 🖼 Dashboard Preview
 ![Dashboard Overview](screenshots/Dashboard.png)
-![Discount vs Profit](screenshots/Discount vs Profit Analysis.png)
+![Discount vs Profit](screenshots/Discount_vs_Profit_Analysis.png)
 
 ## 🔍 Key Insights
 - West region contributes the highest sales
