@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
 
 # -------------------------------
 # Page config
@@ -12,8 +13,10 @@ st.set_page_config(
 
 # -------------------------------
 # Load data (IMPORTANT: encoding)
-# -------------------------------
-df = pd.read_csv("superstore.csv", encoding="latin1")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_PATH = os.path.join(BASE_DIR, "data", "superstore.csv")
+
+df = pd.read_csv(DATA_PATH, encoding="latin1")
 
 # Clean columns
 df.columns = df.columns.str.lower().str.replace(" ", "_")
