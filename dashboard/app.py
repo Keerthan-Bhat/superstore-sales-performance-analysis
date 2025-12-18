@@ -13,7 +13,7 @@ st.set_page_config(
 # -------------------------------
 # Load data (IMPORTANT: encoding)
 # -------------------------------
-df = pd.read_csv("../data/superstore.csv", encoding="latin1")
+df = pd.read_csv("superstore.csv", encoding="latin1")
 
 # Clean columns
 df.columns = df.columns.str.lower().str.replace(" ", "_")
