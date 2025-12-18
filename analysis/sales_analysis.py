@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load dataset (FIXED encoding)
-df = pd.read_csv("../data/superstore.csv", encoding="latin1")
+df = pd.read_csv("superstore.csv", encoding="latin1")
 
 # Clean column names
 df.columns = df.columns.str.lower().str.replace(" ", "_")
